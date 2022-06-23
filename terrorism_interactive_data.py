@@ -97,7 +97,7 @@ set_stype(p3,  xlabel="Region", ylabel ="Casualities")
 p = gridplot([[ p1, p2, p3]], toolbar_location="left")
 
 
-show(p)
+# show(p)
 
 #get number of attacks by years and regions
 

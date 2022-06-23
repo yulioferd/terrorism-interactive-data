@@ -49,7 +49,7 @@ from bokeh.models import HoverTool
 from bokeh.palettes import brewer
 from bokeh.models import FixedTicker,NumeralTickFormatter
 
-output_notebook()
+# output_notebook()
 
 def set_stype(figure,  xlabel="", ylabel=""):
     #figure.title = 
@@ -139,4 +139,4 @@ p.legend.click_policy="hide"
 
 set_stype(p,  xlabel="Year", ylabel ="Attack Counts")
 #export_png(p, filename="./Attack Counts By Region.png")
-show(p)
+# show(p)
